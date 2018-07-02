@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Heading from './components/Heading'
+import Breadcrumb from './components/Breadcrumb'
 
 class App extends Component {
   render() {
@@ -7,15 +9,9 @@ class App extends Component {
       <div className="row">
         <div className="col-md-10 col-md-offset-1">
           <div className="panel panel-primary">
-            <div className="panel-heading">
-            List Company
-            </div>
+            <Heading />
             <div className= "panel-body">
-            <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Master</a></li>
-            <li class="active">List Company</li>
-            </ol>
+              <Breadcrumb />
               <div className = "table-responsive">
               <button className="btn btn-primary pull-right" >Add</button>
             {/* <form method="post">
