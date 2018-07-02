@@ -6,3 +6,7 @@ body {
 .panel {
   margin-top: 50px;
 }
+
+#add-btn {
+  padding: 0;
+}

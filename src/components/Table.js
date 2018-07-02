@@ -1,4 +1,5 @@
 import React from 'react'
+import Modal from './Modal'
 
 class Table extends React.Component {
     render() {

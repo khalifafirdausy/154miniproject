@@ -3,32 +3,31 @@ import React from 'react'
 class Search extends React.Component {
     render() {
         return (
-            <form class="form-inline">
-                <div class="btn-group">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Select Role Code <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
+            <form className="form-inline">
+                <select className="combobox form-control">
+                    <option value="" selected="selected">- Select Company Code -</option>
+                    <option>Alif</option>
+                    <option>Emmy</option>
+                    <option>Eko</option>
+                    <option>Qalfin</option>
+                    <option>Reza</option>
+                </select>
                 &nbsp;
-                <div class="btn-group">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Select Role Name <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
+                <select className="combobox form-control">
+                    <option value="" selected="selected">- Select Company Name -</option>                
+                    <option>Alif</option>
+                    <option>Emmy</option>
+                    <option>Eko</option>
+                    <option>Qalfin</option>
+                    <option>Reza</option>
+                </select>
+                &nbsp;
+                <input type="text" className="form-control" placeholder="Date Picker"/>
+                &nbsp;
+                <input type="text" className="form-control" placeholder="Created By"/>
+                &nbsp;
+                <input type="text" className="form-control" placeholder="Username"/>
+                <button className="btn btn-warning pull-right">Search</button>
             </form>
         )
     }
