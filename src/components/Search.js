@@ -22,7 +22,7 @@ class Search extends React.Component {
                     <option>Reza</option>
                 </select>
                 &nbsp;
-                <div className="input-group date" data-provide="datepicker">
+                <div className="input-group date" data-provide="datepicker" data-date-format="dd/mm/yyyy">
                     <input type="text" className="form-control" />
                     <div className="input-group-addon">
                         <span className="glyphicon glyphicon-calendar" />
@@ -30,8 +30,6 @@ class Search extends React.Component {
                 </div>
                 &nbsp;
                 <input type="text" className="form-control" placeholder="Created By"/>
-                &nbsp;
-                <input type="text" className="form-control" placeholder="Username"/>
                 <button className="btn btn-warning pull-right">Search</button>
             </form>
         )
