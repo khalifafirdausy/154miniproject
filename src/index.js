@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Heading from './component/Heading'
-import Breadcrumb from './component/Breadcrumb'
-import Search from './component/Search'
-import Table from './component/Table'
+import Heading from './components/Heading'
+import Breadcrumb from './components/Breadcrumb'
+import Search from './components/Search'
+import Table from './components/Table'
 
 class App extends React.Component{
     render() {
