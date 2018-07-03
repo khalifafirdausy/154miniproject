@@ -1,11 +1,9 @@
 import React from 'react'
-import Add from './Add';
 
 class Search extends React.Component {
     render() {
         return (
             <form className="form-inline">
-                <Add />
                 <select className="combobox form-control">
                     <option value="" defaultValue="selected">- Select Company Code -</option>
                     <option>Alif</option>

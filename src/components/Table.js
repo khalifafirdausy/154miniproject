@@ -1,5 +1,4 @@
 import React from 'react'
-import Delete from './Delete';
 
 class Table extends React.Component {
     render() {
@@ -30,22 +29,7 @@ class Table extends React.Component {
                         </div>
                     </td>
                     </tr>
-                    <tr>
-                    <td>2</td>
-                    <td>Dummy</td>
-                    <td>Dummy</td>
-                    <td>Dummy</td>
-                    <td>Dummy</td>
-                    <td>
-                        <div className="btn-group">
-                            <button type="button" className="btn btn-link"><i className="glyphicon glyphicon-search"></i></button>
-                            <button type="button" className="btn btn-link"><i className="glyphicon glyphicon-pencil"></i></button>
-                            <button type="button" className="btn btn-link"><i className="glyphicon glyphicon-trash"></i></button>
-                        </div>
-                    </td>
-                    </tr>
                 </tbody>
-                <Delete />
             </table>
         )
     }

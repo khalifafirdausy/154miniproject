@@ -21,3 +21,19 @@ body {
   padding: 0 5px 0 0;
   color: black;
 }
+
+#btn-center {
+  text-align: center;
+}
+
+#add-modal {
+  margin: 0;
+}
+
+#add-user {
+  margin: 5px 0 5px 0;
+}
+
+#form-user {
+  padding: 0;
+}

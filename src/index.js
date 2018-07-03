@@ -4,6 +4,8 @@ import Heading from './components/Heading'
 import Breadcrumb from './components/Breadcrumb'
 import Search from './components/Search'
 import Table from './components/Table'
+import Delete from './components/Delete';
+import Add from './components/Add';
 
 class App extends React.Component{
     render() {
@@ -15,8 +17,10 @@ class App extends React.Component{
                         <div className= "panel-body">
                             <Breadcrumb />
                             <div className = "table-responsive">
+                                <Add />
                                 <Search />
                                 <Table />
+                                <Delete />
                             </div>
                         </div>
                     </div>
