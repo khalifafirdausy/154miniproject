@@ -7,7 +7,7 @@ import Table from './components/Table'
 import Delete from './components/Delete';
 import Add from './components/Add';
 
-class App extends React.Component{
+class App extends React.Component {
     render() {
         return (
             <div className="container">
@@ -31,6 +31,6 @@ class App extends React.Component{
 }
 
 ReactDOM.render(
-    <App />
+    <App/>
     , document.getElementById("root")
 )
