@@ -1,5 +1,4 @@
 import React from 'react'
-import Modal from './Modal'
 
 class Table extends React.Component {
     render() {
@@ -23,9 +22,9 @@ class Table extends React.Component {
                     <td>Dummy</td>
                     <td>Dummy</td>
                     <td>
-                        <a href="#" style={{color:'black'}}><i className="glyphicon glyphicon-search"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="#" style={{color:'black'}}><i className="glyphicon glyphicon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="#" style={{color:'black'}}><i className="glyphicon glyphicon-trash"></i></a>
+                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-search"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-trash"></i></a>
                     </td>
                     </tr>
                     <tr>
@@ -35,9 +34,9 @@ class Table extends React.Component {
                     <td>Dummy</td>
                     <td>Dummy</td>
                     <td>
-                        <a href="#" style={{color:'black'}}><i className="glyphicon glyphicon-search"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="#" style={{color:'black'}}><i className="glyphicon glyphicon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="#" style={{color:'black'}}><i className="glyphicon glyphicon-trash"></i></a>
+                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-search"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-trash"></i></a>
                     </td>
                     </tr>
                     <tr>
@@ -47,9 +46,9 @@ class Table extends React.Component {
                     <td>Dummy</td>
                     <td>Dummy</td>
                     <td>
-                        <a href="#" style={{color:'black'}}><i className="glyphicon glyphicon-search"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="#" style={{color:'black'}}><i className="glyphicon glyphicon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="#" style={{color:'black'}}><i className="glyphicon glyphicon-trash"></i></a>
+                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-search"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-trash"></i></a>
                     </td>
                     </tr>
                 </tbody>
