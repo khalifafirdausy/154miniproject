@@ -5,7 +5,7 @@ class Search extends React.Component {
         return (
             <form className="form-inline">
                 <select className="combobox form-control">
-                    <option value="" selected="selected">- Select Company Code -</option>
+                    <option value="" defaultValue="selected">- Select Company Code -</option>
                     <option>Alif</option>
                     <option>Emmy</option>
                     <option>Eko</option>
@@ -14,7 +14,7 @@ class Search extends React.Component {
                 </select>
                 &nbsp;
                 <select className="combobox form-control">
-                    <option value="" selected="selected">- Select Company Name -</option>                
+                    <option value="" defaultValue="selected">- Select Company Name -</option>                
                     <option>Alif</option>
                     <option>Emmy</option>
                     <option>Eko</option>
@@ -22,7 +22,12 @@ class Search extends React.Component {
                     <option>Reza</option>
                 </select>
                 &nbsp;
-                <input type="text" className="form-control" placeholder="Date Picker"/>
+                <div className="input-group date" data-provide="datepicker">
+                    <input type="text" className="form-control" />
+                    <div className="input-group-addon">
+                        <span className="glyphicon glyphicon-calendar" />
+                    </div>
+                </div>
                 &nbsp;
                 <input type="text" className="form-control" placeholder="Created By"/>
                 &nbsp;
