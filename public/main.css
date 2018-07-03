@@ -9,4 +9,15 @@ body {
 
 #add-btn {
   padding: 0;
+  margin-bottom: 5px;
+}
+
+.btn {
+  width: 70px;
+}
+
+.btn-link {
+  width: auto;
+  padding: 0 5px 0 0;
+  color: black;
 }

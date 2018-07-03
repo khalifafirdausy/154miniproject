@@ -15,10 +15,6 @@ class App extends React.Component{
                         <div className= "panel-body">
                             <Breadcrumb />
                             <div className = "table-responsive">
-                                <div className="col-md-12 ml-auto" id="add-btn">
-                                    <button className="btn btn-primary pull-right">Add</button>
-                                </div>
-                                &nbsp;
                                 <Search />
                                 <Table />
                             </div>

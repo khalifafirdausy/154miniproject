@@ -1,4 +1,5 @@
 import React from 'react'
+import Delete from './Delete';
 
 class Table extends React.Component {
     render() {
@@ -22,9 +23,11 @@ class Table extends React.Component {
                     <td>Dummy</td>
                     <td>Dummy</td>
                     <td>
-                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-search"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-trash"></i></a>
+                        <div className="btn-group">
+                            <button type="button" className="btn btn-link"><i className="glyphicon glyphicon-search"></i></button>
+                            <button type="button" className="btn btn-link"><i className="glyphicon glyphicon-pencil"></i></button>
+                            <button type="button" className="btn btn-link" data-toggle="modal" data-target="#deleteModal" id="deleteBtn"><i className="glyphicon glyphicon-trash"></i></button>
+                        </div>
                     </td>
                     </tr>
                     <tr>
@@ -34,24 +37,15 @@ class Table extends React.Component {
                     <td>Dummy</td>
                     <td>Dummy</td>
                     <td>
-                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-search"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-trash"></i></a>
-                    </td>
-                    </tr>
-                    <tr>
-                    <td>2</td>
-                    <td>Dummy</td>
-                    <td>Dummy</td>
-                    <td>Dummy</td>
-                    <td>Dummy</td>
-                    <td>
-                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-search"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
-                        <a href="" style={{color:'black'}}><i className="glyphicon glyphicon-trash"></i></a>
+                        <div className="btn-group">
+                            <button type="button" className="btn btn-link"><i className="glyphicon glyphicon-search"></i></button>
+                            <button type="button" className="btn btn-link"><i className="glyphicon glyphicon-pencil"></i></button>
+                            <button type="button" className="btn btn-link"><i className="glyphicon glyphicon-trash"></i></button>
+                        </div>
                     </td>
                     </tr>
                 </tbody>
+                <Delete />
             </table>
         )
     }

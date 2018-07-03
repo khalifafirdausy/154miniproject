@@ -1,9 +1,11 @@
 import React from 'react'
+import Add from './Add';
 
 class Search extends React.Component {
     render() {
         return (
             <form className="form-inline">
+                <Add />
                 <select className="combobox form-control">
                     <option value="" defaultValue="selected">- Select Company Code -</option>
                     <option>Alif</option>
@@ -23,7 +25,7 @@ class Search extends React.Component {
                 </select>
                 &nbsp;
                 <div className="input-group date" data-provide="datepicker" data-date-format="dd/mm/yyyy">
-                    <input type="text" className="form-control" />
+                    <input type="text" className="form-control" placeholder="Created Date"/>
                     <div className="input-group-addon">
                         <span className="glyphicon glyphicon-calendar" />
                     </div>
